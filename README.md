@@ -1,0 +1,1 @@
+Proyecto base dónde se usarán contenedores docker a partir de un fichero docker-compose una estructura la cual incluirá un balanceador de carga nginx, hacia webservers, ambos consultado a un contenedor con base de datos SLQ, en este caso mysql.
