@@ -15,7 +15,6 @@ services:
     command: php -S 0.0.0.0:80 /var/www/html/index.php
     volumes: 
       - ./configs/index.php:/var/www/html/index.php
-      - ./php.ini:/etc/php7/php.ini
     ports: 
       - "80"
     networks:
@@ -27,7 +26,6 @@ services:
     command: php -S 0.0.0.0:80 /var/www/html/index.php
     volumes: 
       - ./configs/index.php:/var/www/html/index.php
-      - ./php.ini:/etc/php7/php.ini
     ports: 
       - "80"
     networks:
